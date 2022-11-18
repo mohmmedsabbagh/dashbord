@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم </title>
+    <!-- Link Css Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Link Css Icon fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Link File Right To Left Css  -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <!-- Link Css Style Edit My -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Links Fonts Google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Roboto:ital,wght@0,500;1,700;1,900&family=Tajawal:wght@200;400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Code Navbar -->
+    <div class="navOne">
+        <button>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="">
+            <div class="date d-flex">
+                <div class="date-parth text-center">
+                    <p class="m-0">02:36:24 م</p>
+                    <p class="m-0">السبت 12 نوفمبر  2022</p>
+                </div>
+                <div class="title d-flex">
+                    <div class="photo">
+                        <img src="img/Group.png" class="photo_title" alt="">
+                    </div>
+                    <div class="content_photo">
+                        <p class="m-0">كراون ستي للشقق المخدومة الرياض - ديراب <span>-1287</span></p>
+                        <p class="m-0">تم تسجيل الدخول لسنة 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuOne">
+                <ul class="listOne">
+                    <li>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menuOne">
+                <ul class="listTow">
+                    <li>
+                        <a href=""><i class="fa-solid fa-bell"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-message"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-screwdriver-wrench"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="ul_drobdown d-flex gap-5">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     <img src="img/user.png" alt=""> Abdallah
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">تسجيل الخروج</a></li>
+                    <li><a class="dropdown-item" href="#">الذهاب للموقع</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      اللغة
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">العربية</a></li>
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                    </ul>
+                  </li>
+              </ul>
+        </nav>
+    </div>
+    <!-- Finsh Code Navbar -->
+    <script>
+        let btn = document.querySelector("button");
+        let nav =document.querySelector("nav");
+        btn.addEventListener("click", function(){
+            nav.classList.toggle("active");
+            btn.classList.toggle("active");
+
+        })
+
+    </script>
+    <!-- Script Jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Script Edit My -->
+    <script src="js/main.js"></script>
+    <!-- Script Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Script Js Icon fontawesome -->
+    <script src="js/all.min.js"></script>
+
+</body>
+</html>
